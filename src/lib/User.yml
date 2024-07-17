@@ -1,0 +1,42 @@
+
+get:
+  summary: Get Hello
+  operationId: getHello
+  description: Get Hello
+  responses:
+    '200':
+      description: Hello World
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+post:
+  summary: Post Hello
+  operationId: postHello
+  description: Post Hello
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            name:
+              type: string
+            email:
+              type: string
+  responses:
+    '200':
+      description: Hello World
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              email:
+                type: string
