@@ -219,6 +219,8 @@ const TypingSkills: NextPage = () => {
           <option value={120}>2 minutes</option>
           <option value={300}>5 minutes</option>
           <option value={600}>10 minutes</option>
+          <option value={1200}>20 minutes</option>
+          <option value={1800}>30 minutes</option>
         </select>
         <p className="text-xl">Time: {timer} seconds</p>
         <div className="flex justify-center flex-wrap">
