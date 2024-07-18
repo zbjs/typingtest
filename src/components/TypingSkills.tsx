@@ -215,6 +215,7 @@ const TypingSkills: NextPage = () => {
           className="border border-gray-300 p-2 mb-4"
           disabled={isRunning}
         >
+          <option value={30}>30 seconds</option>
           <option value={60}>1 minute</option>
           <option value={120}>2 minutes</option>
           <option value={300}>5 minutes</option>
@@ -222,7 +223,13 @@ const TypingSkills: NextPage = () => {
           <option value={1200}>20 minutes</option>
           <option value={1800}>30 minutes</option>
         </select>
-        <p className="text-xl">Time: {timer} seconds</p>
+        <div className="text-2xl text-green-500">
+          Time Remaining:-{" "}
+          <span className="font-bold text-red-500 m-4 text-3xl">
+            {Math.floor(timer / 60)} : {timer % 60}
+          </span>
+          sec.
+        </div>
         <div className="flex justify-center flex-wrap">
           {completedWords.map((wordObj, index) => (
             <span
@@ -249,7 +256,7 @@ const TypingSkills: NextPage = () => {
           type="text"
           value={inputText}
           onChange={handleInputChange}
-          className="border border-gray-300 p-2 w-full max-w-md"
+          className="border font-extrabold text-fuchsia-400 border-gray-300 p-2 w-full max-w-md"
           disabled={!isRunning || isPaused}
         />
       </div>
