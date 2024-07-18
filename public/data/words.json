@@ -1,0 +1,17 @@
+{
+  "english": {
+    "easy": "The quick brown fox jumps over the lazy dog. This is an easy typing test. Just keep typing the words you see here.",
+    "medium": "Typing tests can help improve your speed and accuracy. Practicing regularly will make you a faster and more efficient typist.",
+    "advanced": "To truly master typing, one must focus on both speed and precision. Consistency in practice is key to becoming an expert typist."
+  },
+  "spanish": {
+    "easy": "El zorro marrón rápido salta sobre el perro perezoso. Esta es una prueba de mecanografía fácil. Solo sigue escribiendo las palabras que ves aquí.",
+    "medium": "Las pruebas de mecanografía pueden ayudar a mejorar tu velocidad y precisión. Practicar regularmente te hará un mecanógrafo más rápido y eficiente.",
+    "advanced": "Para dominar verdaderamente la mecanografía, uno debe centrarse tanto en la velocidad como en la precisión. La consistencia en la práctica es clave para convertirse en un mecanógrafo experto."
+  },
+  "french": {
+    "easy": "Le renard brun rapide saute par-dessus le chien paresseux. Ceci est un test de dactylographie facile. Continuez simplement à taper les mots que vous voyez ici.",
+    "medium": "Les tests de dactylographie peuvent aider à améliorer votre vitesse et votre précision. Pratiquer régulièrement fera de vous un dactylographe plus rapide et plus efficace.",
+    "advanced": "Pour maîtriser véritablement la dactylographie, il faut se concentrer à la fois sur la vitesse et la précision. La cohérence dans la pratique est la clé pour devenir un dactylographe expert."
+  }
+}

@@ -231,7 +231,7 @@ const TypingComponent: React.FC = () => {
           type="text"
           value={typedWord}
           onChange={handleTypingChange}
-          className="p-2 border rounded w-full max-w-lg font-extrabold text-fuchsia-400 text-4xl"
+          className="p-2 border rounded w-full  max-w-lg h-24 font-extrabold text-fuchsia-400 text-4xl"
           placeholder="Type the word here..."
           disabled={!isRunning}
         />
